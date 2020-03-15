@@ -6,7 +6,10 @@ Age and gender recognition - Flask REST API
 ```
 curl "http://127.0.0.1:5000" -H "Content-Type: multipart/form-data" --form "image=@image.jpg"
 ```
-The response is in JSON format.
+The response is in JSON format:
+```json
+{"faces": [{"age": "3-5", "gender": "female", "prob": "0.6655734", "rect": {"left": "371", "top": "367", "width": "67", "height": "88"}}, {"age": "39-41", "gender": "female", "prob": "0.27251807", "rect": {"left": "557", "top": "208", "width": "76", "height": "111"}}, {"age": "33-35", "gender": "male", "prob": "0.20505214", "rect": {"left": "693", "top": "77", "width": "93", "height": "150"}}]}
+```
 
 Dependencies:
 ```
