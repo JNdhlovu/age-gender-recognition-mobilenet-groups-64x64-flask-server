@@ -1,13 +1,13 @@
 # age-gender-recognition-mobilenet-groups-64x64-flask-server
 Age and gender recognition - Flask API
 Usage: python age_gender_recognition_server.py
-It opens port 5000
-To recognize an image using curl, make a HTTP POST request:
+<br/>It opens port 5000
+<br/>To recognize an image using curl, make a HTTP POST request:
 ```
 curl "http://127.0.0.1:5000" -H "Content-Type: multipart/form-data" --form "image=@image.jpg"
 ```
 
-The response is in JSON format.
+<br/>The response is in JSON format.
 
 Dependencies:
 ```
