@@ -17,5 +17,5 @@ pip install opencv-python
 ```
 
 If you use Windows, the OpenCV have to be installed from: https://www.lfd.uci.edu/~gohlke/pythonlibs/
-To install Tensorflow on Windows, you might need also Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+<br/>To install Tensorflow on Windows, you might need also Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 
