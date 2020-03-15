@@ -1,5 +1,6 @@
 # age-gender-recognition-mobilenet-groups-64x64-flask-server
-Age and gender recognition - Flask REST API
+Age and gender recognition - REST API
+<br/>A commercial version is available at: http://spectrico.com/age-gender-recognition.html
 <br/>Usage: python age_gender_recognition_server.py
 <br/>It opens port 5000
 <br/>To recognize an image using curl, make a HTTP POST request:
