@@ -1,5 +1,5 @@
 # age-gender-recognition-mobilenet-groups-64x64-flask-server
-Age and gender recognition - REST API
+Age and gender recognition - Free REST API
 <br/>A commercial version is available at: http://spectrico.com/age-gender-recognition.html
 <br/>Usage: python age_gender_recognition_server.py
 <br/>It opens port 5000
